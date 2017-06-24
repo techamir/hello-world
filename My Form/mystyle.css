@@ -1,0 +1,98 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.body{
+	margin:0 auto;
+	background-image: url(http://files3.porsche.com/filestore/image/multimedia/en/e-performance-porsche-connect-teaser/normal/1a136378-75d5-11e6-9a3c-0019999cd470/porsche-normal.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 900px; 
+}
+.body form{
+	width: 520px;
+	height: 497px;
+	text-align: center;
+	background-color: rgba(242,242,242,0.7);
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 150px;
+
+}
+.body div h1{
+	color: red;
+	margin-top: 10px;
+}
+.body div hr{
+	padding: 0.5px;
+	margin-left: 40px;
+	margin-right: 40px;
+
+}
+.text{
+	text-align: left;
+	margin-left: 35px;
+	text-shadow: 2px 2px 5px blue;
+	color: red;
+}
+.textbox{
+
+	width: 85%;
+	padding: 5px 12px;
+	margin: 0 25px;
+	display: inline-block;
+	border-radius: 1px solid black;
+	border-radius: 5px;
+	box-sizing: border-box;
+	margin-left:-135px;
+}
+.button{
+	display: inline-block;
+	border-radius: 9px;
+	background-color: skyblue;
+	color: red;
+	text-align: center;
+	font-size: 28px;
+	padding: 15px;
+	width: 30%;
+	transition: all 0.7s;
+	cursor: pointer;
+	margin-right: 10px;
+	float:right;
+}
+.button span{
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.button span:after{
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+.button:hover span{
+	padding-right: 25px;
+}
+.button:hover span:after{
+	opacity: 1;
+	right: 0;
+}
+.footer{
+	
+	margin: 0 auto;
+	background-image: url(https://www.xmple.com/wallpaper/blue-lines-stripes-streaks-white-1920x1080-c2-ffffff-add8e6-l2-48-48-a-60-f-1.svg);
+	background-repeat: no-repeat;
+	background-size: 100% 700px;
+	height: 60px;
+	border-radius: 5px;	
+}
+.footertext{
+	float: right;
+	padding: 10px;
+	margin:  9px 10px;
+	padding: auto;
+	color: red;
+}
