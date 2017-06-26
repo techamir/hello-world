@@ -6,7 +6,7 @@
 
 	background-color: #ebe2e2;
 	border: 1px solid black;
-	width: 1320px;
+	width: 100%;
 	height: 370px;
 }
 .header{
@@ -25,9 +25,21 @@
 }
 .main{
 
-	width: 1318px;
+	width: 100%;
 	height: 320px;
 	
+}
+.content{
+
+	text-align: left;
+	padding: 10px;
+	padding-bottom: 1px;
+}
+.content1{
+
+	
+	padding: 5px;
+	margin: 5px;
 }
 .first{
 
@@ -36,13 +48,6 @@
 	height: 300px;
 	float: left;
 	margin: 6px;
-
-}
-.content{
-
-	text-align: left;
-	padding: 10px;
-	padding-bottom: 1px;
 }
 .second{
 
@@ -52,30 +57,22 @@
 	float: left;
 	margin:6px;
 }
-.content1{
-
-	
-	padding: 5px;
-	margin: 5px;
-}
 .third{
 
 	background-color: white;
 	width: 320px;
 	height: 300px;
-	margin: 6px;
 	float: left;
+	margin: 6px;
 }
 .fourth{
 
 	background-color: white;
 	width: 310px;
 	height: 300px;
-	margin: 6px;
 	float: left;
-
+	margin: 6px;
 }
-
 .smalllogo{
  width:18px;
  height:18px;
