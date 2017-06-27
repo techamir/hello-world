@@ -2,15 +2,15 @@
 	margin: 0px;
 	padding: 0px;
 }
-.body{
+#body{
 	margin:0 auto;
 	background-image: url(http://files3.porsche.com/filestore/image/multimedia/en/e-performance-porsche-connect-teaser/normal/1a136378-75d5-11e6-9a3c-0019999cd470/porsche-normal.jpg);
 	background-repeat: no-repeat;
 	background-size: 100% 900px; 
 }
-.body form{
-	width: 520px;
-	height: 497px;
+#body form{
+	width: 500px;
+	height: 452px;
 	text-align: center;
 	background-color: rgba(242,242,242,0.7);
 	border-radius: 5px;
@@ -18,11 +18,11 @@
 	margin-top: 150px;
 
 }
-.body div h1{
+#body div h1{
 	color: red;
-	margin-top: 10px;
+	margin-top: 20px;
 }
-.body div hr{
+#body div hr{
 	padding: 0.5px;
 	margin-left: 40px;
 	margin-right: 40px;
@@ -51,9 +51,9 @@
 	background-color: skyblue;
 	color: red;
 	text-align: center;
-	font-size: 28px;
+	font-size: 20px;
 	padding: 15px;
-	width: 30%;
+	width: 25%;
 	transition: all 0.7s;
 	cursor: pointer;
 	margin-right: 10px;
@@ -65,7 +65,7 @@
 	position: relative;
 	transition: 0.5s;
 }
-.button span:after{
+/*.button span:after{*/
 	content: '\00bb';
 	position: absolute;
 	opacity: 0;
