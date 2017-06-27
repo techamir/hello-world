@@ -1,0 +1,21 @@
+#body{
+	margin:0 auto;
+	background-image: url(http://files3.porsche.com/filestore/image/multimedia/en/e-performance-porsche-connect-teaser/normal/1a136378-75d5-11e6-9a3c-0019999cd470/porsche-normal.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 700px; 
+}
+#content{
+	color: red;
+	text-shadow: 2px 2px 5px blue;
+	text-align: center;
+}
+#login{
+	border: 1px solid black;
+	width: 450px;
+	height: 450px;
+	align-content: center;
+	margin-top: 70px;
+}
+#align{
+	float: right;
+}
